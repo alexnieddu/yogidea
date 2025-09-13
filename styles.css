@@ -1,0 +1,330 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    /* text-align: justify; */
+    hyphens: auto;
+    /* Enable hyphenation for better word breaks */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.primary-bg {
+    background-color: #3d8080;
+}
+
+.primary-text {
+    color: #3d8080;
+}
+
+.primary-border {
+    border-color: #3d8080;
+}
+
+/* Header Section */
+.header {
+    background: url('resources/Yoga_Impulse.png') no-repeat center center/cover;
+    /* background: url('https://cdn1.gymondo.com/frontend-pre-login/80/static/ac9b3b583507ad11f05f8848fdfa1fb4/c122a/header.jpg') no-repeat center center/cover; */
+    /* background: url('https://jimdo-storage.freetls.fastly.net/image/dccdd89a-6421-4575-9c5d-45975b42278e.jpg?format=pjpg&quality=80') no-repeat center center/cover; */
+    /* background: url('https://cdn1.gymondo.com/frontend-pre-login/80/static/ac9b3b583507ad11f05f8848fdfa1fb4/c122a/header.jpg') no-repeat center center/cover; */
+    color: white;
+    text-align: center;
+    padding: 10rem 2rem;
+    /* Slightly increased padding for better layout */
+}
+
+/* Navigation Container */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(to bottom, rgba(40, 40, 40, 0.9), transparent);
+    /* Adjusted gradient to be slightly lighter */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    /* Increased spacing between links */
+}
+
+.nav-links a {
+    color: white;
+    /* font-weight: bold; */
+}
+
+/* Hero Section */
+.hero {
+    text-align: left;
+    /* Left-aligned hero text */
+    padding: 3rem 2rem;
+    /* Added padding for spacing */
+    max-width: 50%;
+    /* Limited width for cleaner layout */
+    margin-left: 45vw;
+    /* Positioned away from left edge */
+    color: white;
+    text-shadow: 0px 0px 4px #4a4a4a;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.btn {
+    background: #3d8080;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* General Section Styling */
+section {
+    padding: 5rem 10rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.colored {
+    background-color: #EFEEEC;
+}
+
+.colored-box {
+    background-color: #3d8080;
+    color: white;
+}
+
+.colored-box-white {
+    background-color: white;
+    color: black;
+}
+
+.about {
+    /* padding: 10rem 10rem; */
+}
+
+.about h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+/* Row Styling */
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* margin-top: 1rem; */
+    line-height: 2rem;
+    font-size: 1rem;
+    max-width: 1024px;
+    margin: 5rem 0;
+}
+
+.row h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+
+/* Individual Content Blocks in Row */
+.row div {
+    flex: 1;
+    min-width: 25vw;
+    /* Ensures equal width distribution */
+}
+
+/* Image Styling */
+.row img {
+    max-width: 400px;
+    width: 250px;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* List Styling */
+.row ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    /* Aligns list items to the left */
+}
+
+.row ul li {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Features Section */
+.features {
+    text-align: center;
+    background: #ffffff;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    background: white;
+    padding: 2rem;
+    /* Increased padding for better spacing */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.feature-icon,
+.step-icon {
+    width: 50px;
+    margin-bottom: 1rem;
+}
+
+.feature-steps {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.step {
+    display: inline-block;
+    width: 250px;
+    /* margin: 1.5rem; */
+    /* Added more spacing between steps */
+    text-align: center;
+}
+
+/* Early Bird Section */
+.early-bird {
+    background: #3d8080;
+    color: white;
+    text-align: center;
+}
+
+.early-bird ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.early-bird ul li {
+    margin: 0.8rem 0;
+    /* Increased spacing for better readability */
+}
+
+/* Call-to-Action Section */
+.cta {
+    background: #3d8080;
+    color: white;
+    text-align: center;
+    padding: 8rem 10rem;
+}
+
+.cta-form {
+    margin-top: 1.5rem;
+    /* Added more spacing above the form */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    /* Increased gap between input and button */
+}
+
+.cta-form input {
+    padding: 0.8rem;
+    /* Increased padding for better input appearance */
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    /* Added a border for input fields */
+    border-radius: 5px;
+    width: 300px;
+    /* Wider input field for readability */
+}
+
+.cta-form button {
+    background: white;
+    color: #3d8080;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pricing Section */
+.pricing-options {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.option {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    /* Increased padding for footer */
+}
+
+@media only screen and (max-width: 800px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        padding: 1rem 1rem;
+    }
+}
